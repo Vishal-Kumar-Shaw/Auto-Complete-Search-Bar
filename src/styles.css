@@ -1,0 +1,33 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 500px;
+  padding: 5px;
+}
+.result-container {
+  width: 500px;
+  padding: 5px;
+  text-align: left;
+  border: 1px solid black;
+  height: 500px;
+  overflow-y: scroll;
+}
+.result {
+  display: block;
+  padding: 5px;
+  cursor: pointer;
+}
+.result:hover {
+  background-color: bisque;
+}
